@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration:none;
+}
+
+.wrap{
+  max-width: 1440px;
+}
+
+header{
+  margin: 40px;
+  border-left: 9px solid #000000;
+  display: flex;
+  justify-content: space-between;
+}
+header logo{
+  display: flex;
+  justify-content: center;
+  margin: 8px;
+}
+header logo img{
+  width: 67px;
+  height: 67px;
+  margin: 0px 32px;
+}
+header h1{
+  margin: auto 0;
+  font-size: 24px;
+}
+header span{
+  display: block;
+  font-size: 12px;
+  line-height: 15px;
+}
+header .bells{
+  margin: auto 12px;
+}
+
+.container{
+  padding: 0px 40px;
+}
+
+.banner{
+}
+.banner img {
+  width: 100%;
+  vertical-align:top;
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 40px 0px;
+
+}
+.column{
+  display: flex;
+}
+.column-card{
+  line-height: 1.5;
+}
+.column-card h2{
+  font-size: 24px;
+  border-bottom: 2px solid black;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+  font-weight:bold;
+}
+.column-card h2 span{
+  font-size: 16px;
+  margin-left: 5px;
+}
+.column-card ul{
+  padding: 0 5px;
+}
+.column-card a{
+  display: block;
+  text-align: center;
+  background-color: #ECDCBA;
+  padding: 10px;
+  border-radius: 50%;
+  width: 135px;
+  height: 135px;
+  margin: 20px;
+
+}
+.column-card a img{
+  display: block;
+  margin: auto ;
+  text-align: center;
+}
+
+.sidebar h3{
+  font-size: 24px;
+  border-bottom: 2px solid black;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+  font-weight:bold;
+}
+.sidebar-card{
+  background-color: #D4D4D4;
+  border-radius: 10px ;
+  padding: 15px;
+  margin: 20px auto;
+}
+
+footer{
+  background-color: #E0DADA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  color: #535353;
+}
+footer ul{
+  display: flex;
+}
+footer ul li{
+  padding-left: 20px;
+}
+footer ul li a{
+  color: #535353;
+}
