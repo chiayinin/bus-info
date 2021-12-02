@@ -4,13 +4,22 @@
   list-style: none;
   text-decoration:none;
 }
+.bgc-stop{
+  background-color: #ECDCBA;
+}
+.bgc-bus{
+  background-color: #ECEFDF;
+}
+.bgc-rount{
+  background-color: #C2D1CA;
+}
 
 .wrap{
   max-width: 1440px;
 }
 
 header{
-  margin: 40px;
+  margin: 40px ;
   border-left: 9px solid #000000;
   display: flex;
   justify-content: space-between;
@@ -35,15 +44,19 @@ header span{
   line-height: 15px;
 }
 header .bells{
+  width: 28px;
+  height: 28px;
   margin: auto 12px;
+  padding: 10px;
+}
+header .bells a{
+  display: block;
 }
 
 .container{
   padding: 0px 40px;
 }
 
-.banner{
-}
 .banner img {
   width: 100%;
   vertical-align:top;
@@ -58,13 +71,17 @@ header .bells{
 }
 .column{
   display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 950px;
 }
 .column-card{
+  width: 250px;
   line-height: 1.5;
 }
 .column-card h2{
   font-size: 24px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #111111;
   padding: 10px 5px;
   margin-bottom: 10px;
   font-weight:bold;
@@ -77,34 +94,56 @@ header .bells{
   padding: 0 5px;
 }
 .column-card a{
-  display: block;
   text-align: center;
-  background-color: #ECDCBA;
   padding: 10px;
   border-radius: 50%;
   width: 135px;
   height: 135px;
-  margin: 20px;
-
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.column-card a img{
-  display: block;
-  margin: auto ;
-  text-align: center;
+.column-card a:hover{
+  background-color: #D4D4D4;
+  border: 2px solid #575757;
 }
 
+.sidebar{
+  width: 320px;
+}
 .sidebar h3{
   font-size: 24px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #111111;
   padding: 10px 5px;
   margin-bottom: 10px;
   font-weight:bold;
+  line-height: 1.5;
 }
 .sidebar-card{
   background-color: #D4D4D4;
+  color: #000000;
   border-radius: 10px ;
   padding: 15px;
   margin: 20px auto;
+  align-items: center;
+  display: block;
+  display: flex;
+}
+.sidebar-card:hover{
+  background-color: #575757;
+  color: #D4D4D4;
+}
+.sidebar-card img{
+  margin-right: 15px;
+}
+.sidebar-card p{
+  line-height: 1.5;
+}
+.sidebar-card p span{
+  display: block;
+  color: #353535;
+  font-size: 12px;
 }
 
 footer{
