@@ -2,7 +2,7 @@
 ---
 ## 前端 
 先切出首頁
-
+![](https://i.imgur.com/bCn2bp2.png)
 
 ## 設計稿
 參考[UI設計師-Gwen1224](https://2021.thef2e.com/users/6296427084285739845)的設計稿。
